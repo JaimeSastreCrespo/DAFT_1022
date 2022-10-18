@@ -1,23 +1,46 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Lab | Refactoring
+# Project-Pokemon-1
+*Project between Panos and Jaime creating a pokemon fight simulator*
 
-## Description
-Let's spend some time reviewing your code now that you know a little bit more about clean code and good practices.
+*DAFT2022, Paris, 14/10/2022*
 
-## Instructions
-* Fork this repository.
-* Add the code of your the game you coded in the first week of class. As it is, no changes! If you used *Jupyter Notebook* in your original project, your challenge in this lab is to change your project into a Python script, which means that you will turn your *.ipynb* file into a *.py* file.
-* Remember what you learnt during the lesson (good practices, clean code...).
-* Refactor your code! 
-* Do your pull request. It should include: your original project (in a *.py* file) and the refactored version of your project. 
+## Content
+- [Project Description](#project-description)
+- [Rules](#rules)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Links](#links)
 
-## Some hints
-* During the refactor, commit often and describe your changes (what did you change and why?)
-* Use different scripts, not only one.
+## Project Description
+Two players, who each one choose a pokémon from a list of them given beforehand to fight.
+Right after, the fight starts and the players will be asked to pick an attack.
+The players will be fighting until one of the pokemon is dead, so we will have a winner!	
 
-## Resources: 
-* [Cases Separating Words](https://medium.com/@pddivine/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)
-* [Code Style](https://docs.python-guide.org/writing/style/)
-* [PEP8 Guide](https://www.python.org/dev/peps/pep-0008/)
-* [How To Write Documentation](https://realpython.com/documenting-python-code/)
+We chose this game based on nostalgia!
+
+## Rules
+Each player has to pick a pokemon out of the list of available pokemon (for the time being). And one of the moves that they are given.
+
+## Workflow
+JIRA planning
+GitHub set up
+Flowchart and pseudocode preparation
+Started coding the classes, then the basic game logic, and then some extra features, such as advance damage calculation and type effectiveness.
+
+## Organization
+We used Sprints in JIRA and two GitHub repositories. We each updated our progress on JIRA and respectivelly pushed and pulled from our branches into 
+each our main repositories and then created pull requests into the others.
+
+The repository contains the flowchart that we used for the game data and logic, as well as the two main classes that we used to make the fight possible.
+
+## Links
+
+Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
+![flowchart](PokeFight.jpg)
+
+[Repository1](https://github.com/psyrgkan/Project-Pokemon-1)
+
+[Repository2](https://github.com/JaimeSastreCrespo/Project-Pokemon-1)
+
+[Slides](https://docs.google.com/presentation/d/1JMoo-5nwYY0bx6m4fmU7v8BBTCZGOrH8XzMBtYG7hK8/edit?usp=sharing)  
