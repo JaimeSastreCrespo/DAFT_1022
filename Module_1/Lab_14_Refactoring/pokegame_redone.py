@@ -11,12 +11,12 @@ import random    # you're gonna need the library random to be able to choose ran
 import copy    # to give the possibilitie to the second player to choose the same pokemon as the first player, we have to import this library to make a deepcopy of the list of pokemons
 import numpy as np  # to use it in the numpy array for the dimenstional  
 
-# Type effectiveness chart/array
+# Type effectiveness chart/array. We'll use this in the function get_effectiveness to match the 'tipos' of pokemons from the list below with all the pokemons created as a object of the class pokemon.
 pkm_tipos = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice",
                  "Fighting", "Poison", "Ground", "Flying", "Psychic",
                  "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy"]
 
-# A 2 Dimenstional Numpy Array Of Damage Multipliers For Attacking Pokemon:
+# A 2 Dimenstional Numpy Array Of Damage Multipliers For Attacking Pokemon: [to determine if the attack is 1 (=normal damage), 1/2 (=half damage, not very effective), 2(=Super damage because of the type, for example water vs fire)]
 
 ef_arr = np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1/2, 0, 1, 1, 1/2, 1],
                     [1, 1/2, 1/2, 1, 2, 2, 1, 1, 1, 1, 1, 2, 1/2, 1, 1/2, 1, 2, 1],
