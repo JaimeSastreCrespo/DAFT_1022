@@ -2,7 +2,7 @@
 This is the main python file where the logic and practice for the fight simulator lives.
 
 '''
- '''we delete the library below because it was useles'''
+'''we delete the library below because it was useles'''
 # from curses import def_prog_mode 
 
 from attack import Attack   #from my python file created as attack, import the class Attack 
@@ -10,6 +10,7 @@ from pokemon import Pokemon  #from my python file created as pokemon, import the
 import random    # you're gonna need the library random to be able to choose random attacks for each pokemon
 import copy    # to give the possibilitie to the second player to choose the same pokemon as the first player, we have to import this library to make a deepcopy of the list of pokemons
 import numpy as np  # to use it in the numpy array for the dimenstional  
+import pokeatt
 
 # Type effectiveness chart/array. We'll use this in the function get_effectiveness to match the 'tipos' of pokemons from the list below with all the pokemons created as a object of the class pokemon.
 pkm_tipos = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice",
@@ -38,6 +39,8 @@ ef_arr = np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1/2, 0, 1, 1, 1/2, 1],
                     [1, 1/2, 1, 1, 1, 1, 2, 1/2, 1, 1, 1, 1, 1, 1, 2, 2, 1/2, 1]])
 
 # Create Attacks and Pokemon
+
+'''putting in other file all the objects, from pokemon class and attack class'''
 
 thunderpunch = Attack('Thunder Punch', 75, "Electric" , 0)
 quickattack = Attack('Quick Attack', 40, "Normal" , 0)
