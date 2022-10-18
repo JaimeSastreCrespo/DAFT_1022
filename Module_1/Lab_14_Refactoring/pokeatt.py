@@ -38,3 +38,5 @@ jigglypuff = Pokemon('Jigglypuff', [175, 45, 22, 45, 27, 22], 'Normal',[tackle,a
 abra = Pokemon('Abra', [85, 22, 18, 99, 54, 85], 'Psychic',[disarmingvoice,assurance,tackle,wingattack,quickattack,lick])
 snorlax = Pokemon('Snorlax', [220, 103, 63, 63, 103, 31 ], 'Normal', [pound,covet,tackle,megakick,gigaimpact,hurricane,outrage])
 dragonite = Pokemon('Dragonite', [151, 125, 90, 94, 94, 76 ], 'Dragon', [outrage,gigaimpact,pound,covet,dragontail,magicleaf])
+
+pokelist = [bulbasaur, charmander, squirtle, pidgeot, rattata, pikachu, jigglypuff, abra, snorlax, dragonite]
