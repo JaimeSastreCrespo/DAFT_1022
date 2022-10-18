@@ -9,37 +9,12 @@ from attack import Attack   #from my python file created as attack, import the c
 from pokemon import Pokemon  #from my python file created as pokemon, import the class Pokemon 
 import random    # you're gonna need the library random to be able to choose random attacks for each pokemon
 import copy    # to give the possibilitie to the second player to choose the same pokemon as the first player, we have to import this library to make a deepcopy of the list of pokemons
-import numpy as np  # to use it in the numpy array for the dimenstional  
-from pokeatt import pokelist # we put in another script all the objects (pokemons and attacks) 
+import informpoke 
 
 # Type effectiveness chart/array. We'll use this in the function get_effectiveness to match the 'tipos' of pokemons from the list below with all the pokemons created as a object of the class pokemon.
 pkm_tipos = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice",
                  "Fighting", "Poison", "Ground", "Flying", "Psychic",
                  "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy"]
-
-# A 2 Dimenstional Numpy Array Of Damage Multipliers For Attacking Pokemon: [to determine if the attack is 1 (=normal damage), 1/2 (=half damage, not very effective), 2(=Super damage because of the type, for example water vs fire)]
-
-ef_arr = np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1/2, 0, 1, 1, 1/2, 1],
-                    [1, 1/2, 1/2, 1, 2, 2, 1, 1, 1, 1, 1, 2, 1/2, 1, 1/2, 1, 2, 1],
-                    [1, 2, 1/2, 1, 1/2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1/2, 1, 1, 1],
-                    [1, 1, 2, 1/2, 1/2, 1, 1, 1, 0, 2, 1, 1, 1, 1, 1/2, 1, 1, 1],
-                    [1, 1/2, 2, 1, 1/2, 1, 1, 1/2, 2, 1/2, 1, 1/2, 2, 1, 1/2, 1, 1/2, 1],
-                    [1, 1/2, 1/2, 1, 2, 1/2, 1, 1, 2, 2, 1, 1, 1, 1, 2, 1, 1/2, 1],
-                    [2, 1, 1, 1, 1, 2, 1, 1/2, 1, 1/2, 1/2, 1/2, 2, 0, 1, 2, 2, 1/2],
-                    [1, 1, 1, 1, 2, 1, 1, 1/2, 1/2, 1, 1, 1, 1/2, 1/2, 1, 1, 0, 2],
-                    [1, 2, 1, 2, 1/2, 1, 1, 2, 1, 0, 1, 1/2, 2, 1, 1, 1, 2, 1],
-                    [1, 1, 1, 1/2, 2, 1, 2, 1, 1, 1, 1, 2, 1/2, 1, 1, 1, 1/2, 1],
-                    [1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1/2, 1, 1, 1, 1, 0, 1/2, 1],
-                    [1, 1/2, 1, 1, 2, 1, 1/2, 1/2, 1, 1/2, 2, 1, 1, 1/2, 1, 2, 1/2, 1/2],
-                    [1, 2, 1, 1, 1, 2, 1/2, 1, 1/2, 2, 1, 2, 1, 1, 1, 1, 1/2, 1],
-                    [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 1, 1/2, 1, 1],
-                    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1/2, 0],
-                    [1, 1, 1, 1, 1, 1, 1/2, 1, 1, 1, 2, 1, 1, 2, 1, 1/2, 1, 1/2],
-                    [1, 1/2, 1/2, 1/2, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1/2, 2],
-                    [1, 1/2, 1, 1, 1, 1, 2, 1/2, 1, 1, 1, 1, 1, 1, 2, 2, 1/2, 1]])
-
-
-
 
 
 def get_effectiveness(att: Attack, pkm_def: Pokemon):
@@ -48,7 +23,7 @@ def get_effectiveness(att: Attack, pkm_def: Pokemon):
     '''
     att_indx = pkm_tipos.index(att.tipo)
     def_indx = pkm_tipos.index(pkm_def.tipo)
-    effect = ef_arr[att_indx][def_indx]
+    effect = informpoke.ef_arr[att_indx][def_indx]
     if effect == 2:
         print(att.name + " is super effective against " + pkm_def.name +"!")
     if effect == 1/2:
@@ -57,8 +32,14 @@ def get_effectiveness(att: Attack, pkm_def: Pokemon):
 
 def calculate_dmg(att: Attack, pkm_att: Pokemon, pkm_def: Pokemon):
     '''
-    This calculates the damage of a given attacking move from an attacking pokemon
-    to the respective defending pokemon based on Gen I damage formula
+     """Calculates the damage of a given attacking move the player who is attacking taking into account the following 
+     arguments:
+        - att (Attack): Attack used
+        - pkm_att (Pokemon): The Pokemon attacking
+        - pkm_def (Pokemon): The Pokemon defending
+    Returns:
+        int: Returns the damage to the opponent 
+    """
     '''
     dmg = ((2*50/5) + 2) * att.damage 
 
@@ -78,7 +59,7 @@ def calculate_dmg(att: Attack, pkm_att: Pokemon, pkm_def: Pokemon):
 # Main code logic
 
 if __name__ == '__main__': 
-    print([i.name for i in pokelist])
+    print([i.name for i in informpoke.pokelist])
 
     pkm0 = None
     pkm1 = None
@@ -86,7 +67,7 @@ if __name__ == '__main__':
     while pkm0 == None:
         pkm0name = input("Player 1, enter a valid fighter: ").lower()
 
-        for i in pokelist:
+        for i in informpoke.pokelist:
             if pkm0name == i.name.lower():
                 pkm0 = copy.deepcopy(i)
                 break
@@ -94,7 +75,7 @@ if __name__ == '__main__':
     while pkm1 == None:
         pkm1name = input("Player 2, enter a valid fighter: ").lower()
 
-        for i in pokelist:
+        for i in informpoke.pokelist:
             if pkm1name == i.name.lower():
                 pkm1 = copy.deepcopy(i)
                 break
@@ -135,6 +116,8 @@ if __name__ == '__main__':
                     att1 = i
                     break
 
+
+ # the fastest pokemon attacks first (depending on their attack speed)
         if pkm0.stats[5] > pkm1.stats[5]:
             print("\n"+pkm0.name + " hit " + pkm1.name + " with " + att0.name)
             dmg0 = calculate_dmg(att0, pkm0, pkm1)
@@ -155,6 +138,8 @@ if __name__ == '__main__':
             dmg0 = calculate_dmg(att0, pkm0, pkm1)
             pkm1.hp -= dmg0
 
+
+#print the status of the pokemon (hp  >= 0, the pokemon is alive)
         if pkm0.hp >0 and pkm1.hp > 0:
             print("\n"+pkm0.name + " has remaining HP: " + str(pkm0.hp) + "/" +str(pkm0.stats[0]))
             print(pkm1.name + " has remaining HP: " + str(pkm1.hp)+ "/" +str(pkm1.stats[0]))
@@ -164,7 +149,7 @@ if __name__ == '__main__':
             print(pkm1.name + " has the following moves:")
             print([(i.name, i.tipo, i.damage) for i in pkm1.moveset])
 
-
+# when a pokemon is dead, display the winner
     if pkm0.hp < 0:
         print("\n"+pkm0.name + " has fainted!")
         print("Winner is " + pkm1.name + "!")
