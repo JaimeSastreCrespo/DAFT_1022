@@ -27,7 +27,7 @@ values (101, "Mark","Zuck","Sales", "2000"),
 select DISTINCT employees.dep_id from employees;
 
 -- 2.Write a query to get the 2 columns Full name and Taxes  (20% from Salary).
-select concat(name_em, surname) as fullname, (0.2*salary) as taxes from employees;
+select concat(name_em," ",  surname) as fullname, (0.2*salary) as taxes from employees;
 
 
 -- 3. Write a query to get the maximum and minimum salary from employees table
