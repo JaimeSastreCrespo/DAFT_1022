@@ -32,6 +32,55 @@ VALUES 	('02-Nov', 2020, 3000, 'Paris',1),
 
 SELECT * FROM sales;
 
+-- LEFT JOIN
+
+SELECT 	c.name,
+		s.amount, 
+        s.year, 
+        s.department 
+FROM clients c
+LEFT JOIN  sales s
+ON s.client_id=c.id_client;
+
+SELECT 	c.name,
+		s.amount,
+		s.year, 
+        s.department 
+FROM clients c
+RIGHT JOIN  sales s
+ON s.client_id=c.id_client;
+
+SELECT c.name,  s.amount, s.year, s.department 
+FROM clients c
+INNER JOIN  sales s
+ON s.client_id=c.id_client;
+
+
+CREATE TABLE test AS (
+	SELECT c.name,  s.amount, s.year, s.department 
+	FROM clients c
+	INNER JOIN  sales s
+	ON s.client_id=c.id_client
+    );
+    
+	CREATE TEMPORARY TABLE test2 AS (
+	SELECT c.name,  s.amount, s.year, s.department 
+	FROM clients c
+	INNER JOIN  sales s
+	ON s.client_id=c.id_client
+    );
+    
+-- -- Creating TEMPORARY table from JOIN (it should disappear after we turn of SQL)
+-- It will be accesible under selected name, but not visible in SCHEMAS / list of tables:
+-- i.e.
+    
+    SELECT * FROM test2;
+    
+    
+
+
+
+
 
 
     
