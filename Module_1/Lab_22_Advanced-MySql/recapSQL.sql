@@ -24,5 +24,14 @@ CREATE TABLE sales(
 		FOREIGN KEY (client_id)REFERENCES clients(id_client)
 );
 
+INSERT INTO sales(po_id, year, amount, department, client_id)
+VALUES 	('02-Nov', 2020, 3000, 'Paris',1), 
+		('02-Dec', 2021, 4000, 'Oslo',1),
+		('04-Dec', 2021, 2000, 'Oslo',3), 
+		('05-Dec', 2021, 1000, 'Milan',3);
+
+SELECT * FROM sales;
+
+
 
     
