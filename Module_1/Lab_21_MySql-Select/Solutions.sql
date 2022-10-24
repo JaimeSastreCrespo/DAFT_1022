@@ -1,6 +1,7 @@
 USE exc_sql2;
 
 
+
 -- Challenge 1 :In this challenge you will write a MySQL SELECT query that joins various 
 -- tables to figure out what titles each author has published at which pubtitleauthortitlespublisherslishers. 
 
