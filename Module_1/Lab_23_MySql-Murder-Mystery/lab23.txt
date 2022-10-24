@@ -1,0 +1,56 @@
+select * from crime_scene_report
+where city = "SQL City"
+and date = 20180115
+;
+
+select *, max(address_number) 
+from person p
+join interview i 
+on p.id = i.person_id
+where p.address_street_name = "Northwestern Dr"
+;
+
+select *
+from person p
+join interview i 
+on p.id = i.person_id
+where p.address_street_name = "Franklin Ave"
+and p.name LIKE "Annabel%"
+;
+
+select *
+from person p
+join drivers_license dl
+on p.license_id = dl.id
+where dl.plate_number LIKE "%H42W%"
+;
+
+select *
+from get_fit_now_member gf
+join person p
+on gf.person_id = p.id
+where p.id = 51739
+or p.id = 67318
+or p.id = 78193
+;
+
+select *
+from interview i
+join person p
+on i.person_id = p.id
+where p.name = 'Jeremy Bowers'
+;
+
+select * from drivers_license dl
+join person p
+on dl.id = p.license_id
+join facebook_event_checkin fec
+on p.id = fec.person_id
+WHERE height BETWEEN 64 AND 68
+and hair_color = 'red'
+and car_make = 'Tesla'
+and car_model = 'Model S'
+;
+
+
+Miranda Priestly
