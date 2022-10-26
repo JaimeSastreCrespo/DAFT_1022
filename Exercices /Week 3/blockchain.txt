@@ -1,0 +1,7 @@
+The two best options would be R3 Conda and HYPERLEDGER FABRIC .
+
+Depending on what you give more value between security and community you will choose the first or the second one.
+
+In my opinion, and speaking about blockchain, I think we should choose R3 because all is about security when we're talking
+about investing money, more important than community and indeed community is a basic point to make you grow up, you still have a Fair 
+value about that feature and maybe you can improve it.
