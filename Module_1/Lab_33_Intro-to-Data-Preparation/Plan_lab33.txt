@@ -1,0 +1,13 @@
+After having an overview of the data, I drop the column Department because it's always the same
+department. I transformed every number to an integer and all to lower case. I decide to replace 
+missing values with the most frequent values because it's not gonna change a lot our data but we have
+to take into account that we're gonna have two more clients which have Manager as a profession 
+and two more clients with the oldest age. It depends on the case, but maybe it's better to remove
+them, but we're on time to do it if we want to.
+I used ordinal encoding for the column risk and labels for the column profession.
+
+
+
+
+
+
