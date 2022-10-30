@@ -46,7 +46,14 @@ ORDER BY max_metros DESC
 LIMIT 10
 ;
 
+-- Let's look which city has the max in terms of rooms 
 
+SELECT descripcion_direccion, ciudad, (habitaciones) AS max_habitaciones, comunidad_autonoma, precio
+FROM spanishrenting spr
+GROUP BY descripcion_direccion
+ORDER BY max_habitaciones DESC
+LIMIT 10
+;
 
 
 
