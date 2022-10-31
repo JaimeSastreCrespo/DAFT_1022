@@ -2,17 +2,27 @@ CREATE DATABASE IF NOT EXISTS project_3_Spain;
 
 USE project_3_Spain;
 
--- Let's find where is the most expensive Provincia (area) in Spain, based in the avg of the price
+-- Let's find where is the most expensive Provincia (area) in Spain and the less one, based in the avg of the price
 
 SELECT spr.provincia, AVG(PRECIO) AS avg_precio
 FROM spanishrenting spr
 GROUP BY provincia
 ORDER BY avg_precio DESC;
 
-SELECT spr.ciudad, max(PRECIO) AS max_precio
+SELECT spr.comunidad_autonoma, AVG(PRECIO) AS avg_precio
 FROM spanishrenting spr
-GROUP BY ciudad
+GROUP BY comunidad_autonoma
+ORDER BY avg_precio DESC;
+
+SELECT spr.comunidad_autonoma, max(PRECIO) AS max_precio
+FROM spanishrenting spr
+GROUP BY comunidad_autonoma
 ORDER BY max_precio DESC;
+
+SELECT spr.comunidad_autonoma, min(PRECIO) AS min_precio
+FROM spanishrenting spr
+GROUP BY comunidad_autonoma
+ORDER BY min_precio ASC;
 
 -- I'm looking for which region has the most number of houses to rent available and if makes sense with the avg of the price
 
