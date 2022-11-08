@@ -7,19 +7,20 @@ The code is functional but has a lot of room for improvement. Use what you have 
 about simple and efficient code, refactor the code.
 """
 
-import random, string
+import random
+import string
 
 a = int(input('Enter minimum string length: '))
 b = int(input('Enter maximum string length: '))
 n = int(input('How many random strings to generate? '))
 
+char_set = string.ascii_lowercase + string.digits
 
-if a >=b: 
-            for i in range(random.randint(a, b)) for i in range(n)
-else:
-    x = "Enter a valid range"
-
-print(x)
+for num in range(0,n):
+    choice = random.choice(list(range(a,b+1)))
+    
+    c = random.sample(char_set*choice, choice)
+    print(''.join(c))
 
 
 
