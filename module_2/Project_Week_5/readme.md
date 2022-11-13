@@ -6,6 +6,8 @@
 
 
 
+Exploratory Data Analysis of a supermarket sales dataset in three different cities of Myanmar. 
 
+Process: Cleaned the data. Examined the dataset for the possible issues. Analyzed the data using statistics, groupby and charts. Develop the idea of the dashboard. Represent the most powerful insights. Data input and data output (charts, text, tables). There are at least 12 widgets that describe the data.
 
 
