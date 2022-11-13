@@ -2,7 +2,10 @@
 
 # Project | Project 5: Data visualization and reporting in Streamlit
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/JaimeSastreCrespo/Ironhack_Paris_2022/blob/main/module_2/Project_Week_5/Screenshot%202022-11-13%20at%2020.13.10.png)
+
+
+
 
 
 
