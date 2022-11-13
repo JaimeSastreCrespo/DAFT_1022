@@ -2,8 +2,7 @@
 
 # Project | Project 5: Data visualization and reporting in Streamlit
 
-
-image.png
+![alt text](http://url/to/img.png)
 
 
 
