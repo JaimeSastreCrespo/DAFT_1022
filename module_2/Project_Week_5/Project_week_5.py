@@ -7,7 +7,7 @@ import seaborn as sns
 warnings.filterwarnings("ignore")
 from PIL import Image
 import altair as alt
-import plotly.express as px
+
 
 
 
