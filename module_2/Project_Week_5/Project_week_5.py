@@ -7,6 +7,7 @@ import seaborn as sns
 warnings.filterwarnings("ignore")
 from PIL import Image
 import altair as alt
+import plotly.express as px
 
 
 
@@ -25,7 +26,7 @@ supermar.head()
 
 ######### STREAMLIT #######
 
-colors = ["#14171A", "#657786", "#1DA1F2"]
+colors = ["#14171A"]
 sns.set_palette(sns.color_palette(colors))
 
 #sns.cubehelix_palette(start=2, rot=0, dark=0, light=.95, reverse=True, as_cmap=True)
@@ -51,6 +52,7 @@ expander_bar.markdown("""
 
 
 st.write('---')
+
 
 
 result2 = st.button("Click here to see the correlation matrix to know more about the variables ")
@@ -275,12 +277,16 @@ if len(cat) >0:
     col3.pyplot(fig5)
 
 st.write('---')
+
  ## Which hour of the day is the busiest?
+
+st.markdown("### Couple of trends : per month and hour")
+col4, col5 = st.columns((2,2))
 if len(cat) >0:
     fig6 = plt.figure()
     plt.title('Which hour of the day is the busiest?')
     sns.lineplot(x="Hour",  y = 'quantity',data =df2).set_title("Product Sales per Hour")
-    st.pyplot(fig6)
+    col4.pyplot(fig6)
 
 
 #trend of the months
@@ -289,7 +295,7 @@ if len(cat) >0:
     fig6 = plt.figure()
     plt.title('Monthly trend ')
     sns.lineplot(x="month",  y = 'total',data =df2).set_title("Monthly trend by mean")
-    st.pyplot(fig6)
+    col5.pyplot(fig6)
 
 
 
@@ -316,13 +322,5 @@ c = alt.Chart(df2).mark_point().encode(
 st.markdown("### Here you can see a full stack chart")
 
 st.altair_chart(c, use_container_width=True)
-
-
-
-
-
-
-
-
 
 
