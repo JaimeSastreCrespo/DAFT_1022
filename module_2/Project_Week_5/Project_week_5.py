@@ -35,7 +35,7 @@ sns.set_palette(sns.color_palette(colors))
 st.markdown("# Supermarket Sales Analysis ")   ## Main Title
 expander_bar = st.expander("About this project")
 expander_bar.markdown("""
-* This is a sales analysis from the supermarkets in Naypyitaw, Yangon and Mandalay.
+* This is a sales analysis from the supermarkets in Naypyitaw, Yangon and Mandalay (from Myanmar).
     * We will see:
         * Correlation matrix of our dataset.
         * Where are our target cities of this dashboard.
@@ -91,6 +91,8 @@ if result:
     st.pyplot(fig)
     flag = True
 
+    st.markdown('The rating distribution looks uniform and there seems to be no skewness on the left or right side of the distribution. We can plot the mean and the percentiles to show this as well. The red dotted lime is the mean and the green and orange lines indicate the 25th and 75th percentiles respectively.The mean rating is ~7 across products.')
+
 else:
     st.write("Come on, click please")
     flag = False
@@ -110,6 +112,8 @@ if option == 'total':
             y="total", 
             data=supermar)
     st.pyplot(fig2)
+    st.markdown(" As you can see from the scatter plot and the trend line which is pretty flat that there is no relationship between total amount of money per ticket and his rating.")
+
 
 elif option == 'quantity':
     fig2 = plt.figure()
@@ -117,6 +121,8 @@ elif option == 'quantity':
             y="quantity", 
             data=supermar)
     st.pyplot(fig2)
+    st.markdown(" As you can see from the scatter plot and the trend line which is pretty flat that there is no relationship between quantity of ticket and his rating.")
+
 
 st.write('---')
 ### Fig 3 : Is there any difference in aggregate sales across City, etc? with slectbox and if statement
@@ -132,6 +138,7 @@ if option == 'city':
     sns.countplot(supermar['city'])
     supermar['city'].value_counts()
     st.pyplot(fig3)
+    st.markdown("Top city: Yangon ")
     
 
 elif option == 'payment':
@@ -139,12 +146,14 @@ elif option == 'payment':
     sns.countplot(supermar['payment'])
     supermar['payment'].value_counts()
     st.pyplot(fig3)
+    st.markdown("Payment method less used: Credit card ")
     
 elif option == 'gender':
     fig3 = plt.figure()
     sns.countplot(supermar['gender'])
     supermar['gender'].value_counts()
     st.pyplot(fig3)
+    st.markdown("Very balanced distribution of gender, equality rules! ")
 
 
 st.write('You selected:', option)
@@ -263,6 +272,7 @@ cat=df2[["product_line", "total"]].groupby(['product_line'], as_index=False).sum
 if len(cat) >0:
 
     fig5 = plt.figure()
+    plt.title('Total by Product Line')
     sns.barplot(x='product_line', y='total', data=cat)
     plt.xticks(rotation = 45)
     col2.pyplot(fig5)
@@ -272,6 +282,7 @@ cat2=df2[["product_line", "quantity"]].groupby(['product_line'], as_index=False)
 if len(cat) >0:
 
     fig5 = plt.figure()
+    plt.title('Quantity by Product Line')
     sns.barplot(x='product_line', y='quantity', data=cat2)
     plt.xticks(rotation = 45)
     col3.pyplot(fig5)
