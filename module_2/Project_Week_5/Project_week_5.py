@@ -47,7 +47,7 @@ expander_bar.markdown("""
         * Looking for the hour of the day when is the busiest moment.
         * Monthly trend.
         * Full dynamic chart.
-* **Python libraries:** pandas, streamlit, numpy, matplotlib, seaborn, warnings and Image.
+* **Python libraries:** pandas, streamlit, numpy, matplotlib, seaborn, warnings, altair and Image.
 """)
 
 
