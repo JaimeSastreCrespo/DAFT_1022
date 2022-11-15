@@ -16,8 +16,18 @@ This file should also include the SQL script for the Part 3.
 Find a and b, if median=42, mean=50
 20,34, 34,  12, 56, 110, 49, a, b.
 
+### Answer 
+
+50*9(elements)=450
+median = 42 = a
+450 - total of elements excdpt b = 450 - 357 = 93 = b
+
 ### Challenge 2
 A car hit an average speed of v1 = 60 kmph in the first half of the journey, and hit an average speed of v2 = 110 kmph in the second half of the journey. Determine the average speed of the car.
+
+### Answer 
+
+(60 + 110) / 2 = 85 kmph
 
 ### Challenge 3
 The lifetimes of 400 light-bulbs were found to the nearest hour. The results were recorded as
@@ -27,12 +37,30 @@ Frequency         143     97      64      51      14      14        17
 Construct a histogram and cumulative frequency polygon for this dataset. Estimate the percentage
 of bulbs with lifetime less than 480 hours.
 
+
+### Answer 
+
+Frequency_less_than_480h = 240+((480-399)/200)*(304-240) = 265.92
+
+percentage_less_than_480h = 265.92/400 = 66.5%
+
 ### Challenge 4
 The time between arrival of 60 patients at an intensive care unit were recorded to the nearest hour.
 The data are shown below.
 Time (hours) 0–19 20–39 40–59 60–79 80–99 100–119 120–139 140–159 160–179
 Frequency     16    13    17    4     4      3       1      1       1
 Determine the median, mean and standard deviation for this dataset.
+
+### Answer 
+
+
+from excel 
+
+median = 41.2
+
+mean = 47
+
+standard deviation = 36.8
 
 ## Part 2
 ### Challenge 1
@@ -41,10 +69,39 @@ One player rolls two dices. Describe the measurable space and the random variabl
 * B. The sum of the values obtained.
 * C. The maximum value obtained after rolling both dices.
 
+
+
 Describe the following events:
 * Case A: Both values are greater than 5.
 * Case B: The sum of values is even.
 * Case C: The maximum is the value of both rolls.
+
+### Answer 
+
+
+### A
+
+{(1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(2,1),(2,2),(2,3),(2,4),(2,5),(2,6)...(5,6),(6,6)} definition: (first dice number, second dice number)
+
+### B
+
+{2,3,4,5,6,7,8,9,10,11,12}
+
+### C
+
+{12}
+
+### Case A
+
+{(6,6)}
+
+### Case B
+
+{2,4,6,8,10,12}
+
+### Case C
+
+{NaN}
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
@@ -52,10 +109,42 @@ One player picks two cards from a poker deck. Describe the measurable space and 
 * B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
 * C. The number of hearts or spades he picks.
 
+
+### answer ♤ ♥ ♢ ♧
+
+### A
+
+{(♤A,♤A),(♤1,♤2),...(♧K,♧Q),(♧K,♧K)}
+
+### B
+
+{1,2,3,4,.....18,19,20,25,30}
+
+### C
+
+{0,1,2}
+
+
+
+
 Describe the following events:
 * Case A: The number of figures in the cards the player picked is two.
 * Case B: The sum of card values is 17.
 * Case C: The value of both cards is less than 8.
+
+### Case A
+
+{(♤1,♤2),(♤2,♤2),...(♧Q,♧2),(♧K,♧2)}
+
+### Case B
+
+{(♤1,♤2),(♤7,♤10),(♤7,♤J),....(7♧,♧Q),(♧7,♧K)}
+
+### Case C
+
+{(♤2,♤2),(♤2,♤3),...(♧4,♧3),(♧5,♧2)}
+
+
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
@@ -73,6 +162,55 @@ Describe the following events:
   * Player A wins at least 4 coins.
   * Player A loses more than 2 coins.
   * Player A neither wins nor loses coins.
+
+  ### Answer 
+
+    ### A
+
+{1,2,3,4,5,6}
+
+  ### B
+
+{6}
+
+  ### C
+
+only earnings, so situations of losing coins have not been included
+{1 coin}
+
+  ### D
+
+{1 coin, 2 coin, 3 coin, 4 coin, 5 coin}
+
+  ### Case A
+
+{2}
+
+  ### Case B
+
+{(A1,B2),(A2,B1),(A2,B2)}
+
+  ### Case C
+
+  ### C1
+
+D=1:A{5,6}
+D=2:A{6}
+
+  ### C2
+
+D=1: A{4,5,6}
+D=2: A{5,6}
+D=3: A{6}
+
+  ### C3
+
+D=1:A{1}
+D=2:A{2}
+D=3:A{3}
+D=4:A{4}
+D=5:A{5}
+D=6:A{6}
 
 ## Bonus challenges
 ### Bonus Challenge 1
