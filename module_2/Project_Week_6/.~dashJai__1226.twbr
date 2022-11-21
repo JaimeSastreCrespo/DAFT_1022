@@ -1,0 +1,1620 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='AAPL' inline='true' name='federated.01bexzx1edxszk102pw9r0rcb3tu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='AAPL' name='textscan.1khozfs1dac2sw1e09whl0jqxqey'>
+            <connection class='textscan' directory='Data/Project_Week_6' filename='AAPL.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1khozfs1dac2sw1e09whl0jqxqey' name='AAPL.csv' table='[AAPL#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='real' name='Open' ordinal='1' />
+            <column datatype='real' name='High' ordinal='2' />
+            <column datatype='real' name='Low' ordinal='3' />
+            <column datatype='real' name='Close(t)' ordinal='4' />
+            <column datatype='integer' name='Volume' ordinal='5' />
+            <column datatype='real' name='SD20' ordinal='6' />
+            <column datatype='real' name='Upper_Band' ordinal='7' />
+            <column datatype='real' name='Lower_Band' ordinal='8' />
+            <column datatype='real' name='S_Close(t-1)' ordinal='9' />
+            <column datatype='real' name='S_Close(t-2)' ordinal='10' />
+            <column datatype='real' name='S_Close(t-3)' ordinal='11' />
+            <column datatype='real' name='S_Close(t-5)' ordinal='12' />
+            <column datatype='real' name='S_Open(t-1)' ordinal='13' />
+            <column datatype='real' name='MA5' ordinal='14' />
+            <column datatype='real' name='MA10' ordinal='15' />
+            <column datatype='real' name='MA20' ordinal='16' />
+            <column datatype='real' name='MA50' ordinal='17' />
+            <column datatype='real' name='MA200' ordinal='18' />
+            <column datatype='real' name='EMA10' ordinal='19' />
+            <column datatype='real' name='EMA20' ordinal='20' />
+            <column datatype='real' name='EMA50' ordinal='21' />
+            <column datatype='real' name='EMA100' ordinal='22' />
+            <column datatype='real' name='EMA200' ordinal='23' />
+            <column datatype='real' name='MACD' ordinal='24' />
+            <column datatype='real' name='MACD_EMA' ordinal='25' />
+            <column datatype='real' name='ATR' ordinal='26' />
+            <column datatype='real' name='ADX' ordinal='27' />
+            <column datatype='real' name='CCI' ordinal='28' />
+            <column datatype='real' name='ROC' ordinal='29' />
+            <column datatype='real' name='RSI' ordinal='30' />
+            <column datatype='real' name='William%R' ordinal='31' />
+            <column datatype='real' name='SO%K' ordinal='32' />
+            <column datatype='real' name='STD5' ordinal='33' />
+            <column datatype='real' name='ForceIndex1' ordinal='34' />
+            <column datatype='real' name='ForceIndex20' ordinal='35' />
+            <column datatype='date' name='Date_col' ordinal='36' />
+            <column datatype='integer' name='Day' ordinal='37' />
+            <column datatype='integer' name='DayofWeek' ordinal='38' />
+            <column datatype='integer' name='DayofYear' ordinal='39' />
+            <column datatype='integer' name='Week' ordinal='40' />
+            <column datatype='integer' name='Is_month_end' ordinal='41' />
+            <column datatype='integer' name='Is_month_start' ordinal='42' />
+            <column datatype='integer' name='Is_quarter_end' ordinal='43' />
+            <column datatype='integer' name='Is_quarter_start' ordinal='44' />
+            <column datatype='integer' name='Is_year_end' ordinal='45' />
+            <column datatype='integer' name='Is_year_start' ordinal='46' />
+            <column datatype='integer' name='Is_leap_year' ordinal='47' />
+            <column datatype='integer' name='Year' ordinal='48' />
+            <column datatype='integer' name='Month' ordinal='49' />
+            <column datatype='real' name='QQQ_Close' ordinal='50' />
+            <column datatype='real' name='QQQ(t-1)' ordinal='51' />
+            <column datatype='real' name='QQQ(t-2)' ordinal='52' />
+            <column datatype='real' name='QQQ(t-5)' ordinal='53' />
+            <column datatype='real' name='QQQ_MA10' ordinal='54' />
+            <column datatype='real' name='QQQ_MA20' ordinal='55' />
+            <column datatype='real' name='QQQ_MA50' ordinal='56' />
+            <column datatype='real' name='SnP_Close' ordinal='57' />
+            <column datatype='real' name='SnP(t-1))' ordinal='58' />
+            <column datatype='real' name='SnP(t-5)' ordinal='59' />
+            <column datatype='real' name='DJIA_Close' ordinal='60' />
+            <column datatype='real' name='DJIA(t-1))' ordinal='61' />
+            <column datatype='real' name='DJIA(t-5)' ordinal='62' />
+            <column datatype='real' name='Close_forcast' ordinal='63' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1khozfs1dac2sw1e09whl0jqxqey' name='AAPL.csv' table='[AAPL#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='real' name='Open' ordinal='1' />
+            <column datatype='real' name='High' ordinal='2' />
+            <column datatype='real' name='Low' ordinal='3' />
+            <column datatype='real' name='Close(t)' ordinal='4' />
+            <column datatype='integer' name='Volume' ordinal='5' />
+            <column datatype='real' name='SD20' ordinal='6' />
+            <column datatype='real' name='Upper_Band' ordinal='7' />
+            <column datatype='real' name='Lower_Band' ordinal='8' />
+            <column datatype='real' name='S_Close(t-1)' ordinal='9' />
+            <column datatype='real' name='S_Close(t-2)' ordinal='10' />
+            <column datatype='real' name='S_Close(t-3)' ordinal='11' />
+            <column datatype='real' name='S_Close(t-5)' ordinal='12' />
+            <column datatype='real' name='S_Open(t-1)' ordinal='13' />
+            <column datatype='real' name='MA5' ordinal='14' />
+            <column datatype='real' name='MA10' ordinal='15' />
+            <column datatype='real' name='MA20' ordinal='16' />
+            <column datatype='real' name='MA50' ordinal='17' />
+            <column datatype='real' name='MA200' ordinal='18' />
+            <column datatype='real' name='EMA10' ordinal='19' />
+            <column datatype='real' name='EMA20' ordinal='20' />
+            <column datatype='real' name='EMA50' ordinal='21' />
+            <column datatype='real' name='EMA100' ordinal='22' />
+            <column datatype='real' name='EMA200' ordinal='23' />
+            <column datatype='real' name='MACD' ordinal='24' />
+            <column datatype='real' name='MACD_EMA' ordinal='25' />
+            <column datatype='real' name='ATR' ordinal='26' />
+            <column datatype='real' name='ADX' ordinal='27' />
+            <column datatype='real' name='CCI' ordinal='28' />
+            <column datatype='real' name='ROC' ordinal='29' />
+            <column datatype='real' name='RSI' ordinal='30' />
+            <column datatype='real' name='William%R' ordinal='31' />
+            <column datatype='real' name='SO%K' ordinal='32' />
+            <column datatype='real' name='STD5' ordinal='33' />
+            <column datatype='real' name='ForceIndex1' ordinal='34' />
+            <column datatype='real' name='ForceIndex20' ordinal='35' />
+            <column datatype='date' name='Date_col' ordinal='36' />
+            <column datatype='integer' name='Day' ordinal='37' />
+            <column datatype='integer' name='DayofWeek' ordinal='38' />
+            <column datatype='integer' name='DayofYear' ordinal='39' />
+            <column datatype='integer' name='Week' ordinal='40' />
+            <column datatype='integer' name='Is_month_end' ordinal='41' />
+            <column datatype='integer' name='Is_month_start' ordinal='42' />
+            <column datatype='integer' name='Is_quarter_end' ordinal='43' />
+            <column datatype='integer' name='Is_quarter_start' ordinal='44' />
+            <column datatype='integer' name='Is_year_end' ordinal='45' />
+            <column datatype='integer' name='Is_year_start' ordinal='46' />
+            <column datatype='integer' name='Is_leap_year' ordinal='47' />
+            <column datatype='integer' name='Year' ordinal='48' />
+            <column datatype='integer' name='Month' ordinal='49' />
+            <column datatype='real' name='QQQ_Close' ordinal='50' />
+            <column datatype='real' name='QQQ(t-1)' ordinal='51' />
+            <column datatype='real' name='QQQ(t-2)' ordinal='52' />
+            <column datatype='real' name='QQQ(t-5)' ordinal='53' />
+            <column datatype='real' name='QQQ_MA10' ordinal='54' />
+            <column datatype='real' name='QQQ_MA20' ordinal='55' />
+            <column datatype='real' name='QQQ_MA50' ordinal='56' />
+            <column datatype='real' name='SnP_Close' ordinal='57' />
+            <column datatype='real' name='SnP(t-1))' ordinal='58' />
+            <column datatype='real' name='SnP(t-5)' ordinal='59' />
+            <column datatype='real' name='DJIA_Close' ordinal='60' />
+            <column datatype='real' name='DJIA(t-1))' ordinal='61' />
+            <column datatype='real' name='DJIA(t-5)' ordinal='62' />
+            <column datatype='real' name='Close_forcast' ordinal='63' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Open]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Open</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>High</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Low</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Close(t)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Close(t)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Close(t)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volume</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Volume]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Volume</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SD20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SD20]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>SD20</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Upper_Band</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Upper_Band]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Upper_Band</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lower_Band</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lower_Band]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Lower_Band</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_Close(t-1)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S_Close(t-1)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>S_Close(t-1)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_Close(t-2)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S_Close(t-2)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>S_Close(t-2)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_Close(t-3)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S_Close(t-3)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>S_Close(t-3)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_Close(t-5)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S_Close(t-5)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>S_Close(t-5)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_Open(t-1)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S_Open(t-1)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>S_Open(t-1)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MA5]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>MA5</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MA10]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>MA10</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MA20]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>MA20</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA50</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MA50]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>MA50</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA200</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MA200]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>MA200</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMA10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EMA10]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>EMA10</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMA20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EMA20]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>EMA20</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMA50</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EMA50]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>EMA50</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMA100</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EMA100]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>EMA100</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMA200</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EMA200]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>EMA200</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MACD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MACD]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>MACD</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MACD_EMA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MACD_EMA]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>MACD_EMA</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ATR]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>ATR</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADX</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ADX]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>ADX</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CCI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CCI]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>CCI</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ROC]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>ROC</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RSI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RSI]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>RSI</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>William%R</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[William%R]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>William%R</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SO%K</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SO%K]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>SO%K</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STD5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[STD5]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>STD5</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ForceIndex1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ForceIndex1]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>ForceIndex1</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ForceIndex20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ForceIndex20]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>ForceIndex20</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date_col</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date_col]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Date_col</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayofWeek</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DayofWeek]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>DayofWeek</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayofYear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DayofYear]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>DayofYear</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Week</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_month_end</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_month_end]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Is_month_end</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_month_start</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_month_start]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Is_month_start</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_quarter_end</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_quarter_end]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Is_quarter_end</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_quarter_start</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_quarter_start]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Is_quarter_start</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_year_end</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_year_end]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Is_year_end</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_year_start</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_year_start]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Is_year_start</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_leap_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_leap_year]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Is_leap_year</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QQQ_Close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QQQ_Close]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>QQQ_Close</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QQQ(t-1)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QQQ(t-1)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>QQQ(t-1)</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QQQ(t-2)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QQQ(t-2)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>QQQ(t-2)</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QQQ(t-5)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QQQ(t-5)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>QQQ(t-5)</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QQQ_MA10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QQQ_MA10]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>QQQ_MA10</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QQQ_MA20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QQQ_MA20]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>QQQ_MA20</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QQQ_MA50</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[QQQ_MA50]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>QQQ_MA50</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SnP_Close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SnP_Close]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>SnP_Close</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SnP(t-1))</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SnP(t-1))]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>SnP(t-1))</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SnP(t-5)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SnP(t-5)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>SnP(t-5)</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DJIA_Close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DJIA_Close]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>DJIA_Close</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DJIA(t-1))</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DJIA(t-1))]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>DJIA(t-1))</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DJIA(t-5)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DJIA(t-5)]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>DJIA(t-5)</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Close_forcast</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Close_forcast]</local-name>
+            <parent-name>[AAPL.csv]</parent-name>
+            <remote-alias>Close_forcast</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='HighLowDiff' datatype='real' name='[Calculation_129126677654130692]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[High]-[Low]' />
+      </column>
+      <column caption='CloseOpenDiff' datatype='real' name='[Calculation_129126677654327301]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Close(t)]-[Open]' />
+      </column>
+      <column caption='Color' datatype='boolean' name='[Calculation_129126677656571910]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Calculation_129126677654327301] &gt; 0' />
+      </column>
+      <column datatype='real' name='[Close(t)]' role='measure' type='quantitative' />
+      <column caption='CloseOpenDiff (copy)' datatype='real' name='[CloseOpenDiff (copy)_86272113441861632]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Close(t)]-[Open]' />
+      </column>
+      <column caption='Close forcast' datatype='real' name='[Close_forcast]' role='measure' type='quantitative' />
+      <column caption='DJIA Close' datatype='real' name='[DJIA_Close]' role='measure' type='quantitative' />
+      <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+      <column caption='Date col' datatype='date' name='[Date_col]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Day]' role='dimension' type='quantitative' />
+      <column caption='Dayof Week' datatype='integer' name='[DayofWeek]' role='dimension' type='quantitative' />
+      <column caption='Dayof Year' datatype='integer' name='[DayofYear]' role='dimension' type='quantitative' />
+      <column caption='Ema100' datatype='real' name='[EMA100]' role='measure' type='quantitative' />
+      <column caption='Ema10' datatype='real' name='[EMA10]' role='measure' type='quantitative' />
+      <column caption='Ema200' datatype='real' name='[EMA200]' role='measure' type='quantitative' />
+      <column caption='Ema20' datatype='real' name='[EMA20]' role='measure' type='quantitative' />
+      <column caption='Ema50' datatype='real' name='[EMA50]' role='measure' type='quantitative' />
+      <column caption='Is leap year' datatype='integer' name='[Is_leap_year]' role='dimension' type='quantitative' />
+      <column caption='Is month end' datatype='integer' name='[Is_month_end]' role='measure' type='quantitative' />
+      <column caption='Is month start' datatype='integer' name='[Is_month_start]' role='measure' type='quantitative' />
+      <column caption='Is quarter end' datatype='integer' name='[Is_quarter_end]' role='measure' type='quantitative' />
+      <column caption='Is quarter start' datatype='integer' name='[Is_quarter_start]' role='measure' type='quantitative' />
+      <column caption='Is year end' datatype='integer' name='[Is_year_end]' role='measure' type='quantitative' />
+      <column caption='Is year start' datatype='integer' name='[Is_year_start]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Low]' role='measure' type='quantitative' />
+      <column caption='Lower Band' datatype='real' name='[Lower_Band]' role='measure' type='quantitative' />
+      <column caption='Ma10' datatype='real' name='[MA10]' role='measure' type='quantitative' />
+      <column caption='Ma200' datatype='real' name='[MA200]' role='measure' type='quantitative' />
+      <column caption='Ma20' datatype='real' name='[MA20]' role='measure' type='quantitative' />
+      <column caption='Ma50' datatype='real' name='[MA50]' role='measure' type='quantitative' />
+      <column caption='Macd' datatype='real' name='[MACD]' role='measure' type='quantitative' />
+      <column caption='Macd Ema' datatype='real' name='[MACD_EMA]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column datatype='real' name='[Open]' role='measure' type='quantitative' />
+      <column caption='QQQ Close' datatype='real' name='[QQQ_Close]' role='measure' type='quantitative' />
+      <column caption='Qqq Ma10' datatype='real' name='[QQQ_MA10]' role='measure' type='quantitative' />
+      <column caption='Qqq Ma20' datatype='real' name='[QQQ_MA20]' role='measure' type='quantitative' />
+      <column caption='Qqq Ma50' datatype='real' name='[QQQ_MA50]' role='measure' type='quantitative' />
+      <column datatype='real' name='[RSI]' role='measure' type='quantitative' />
+      <column caption='Sd20' datatype='real' name='[SD20]' role='measure' type='quantitative' />
+      <column caption='So%K' datatype='real' name='[SO%K]' role='measure' type='quantitative' />
+      <column caption='Std5' datatype='real' name='[STD5]' role='measure' type='quantitative' />
+      <column caption='S Close(t-1)' datatype='real' name='[S_Close(t-1)]' role='measure' type='quantitative' />
+      <column caption='S Close(t-2)' datatype='real' name='[S_Close(t-2)]' role='measure' type='quantitative' />
+      <column caption='S Close(t-3)' datatype='real' name='[S_Close(t-3)]' role='measure' type='quantitative' />
+      <column caption='S Close(t-5)' datatype='real' name='[S_Close(t-5)]' role='measure' type='quantitative' />
+      <column caption='S Open(t-1)' datatype='real' name='[S_Open(t-1)]' role='measure' type='quantitative' />
+      <column caption='SnP Close' datatype='real' name='[SnP_Close]' role='measure' type='quantitative' />
+      <column caption='Upper Band' datatype='real' name='[Upper_Band]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Volume]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Week]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='AAPL.csv' datatype='table' name='[__tableau_internal_object_id__].[AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66]' role='measure' type='quantitative' />
+      <column-instance column='[Close(t)]' derivation='Attribute' name='[attr:Close(t):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Close(t)]' derivation='Avg' name='[avg:Close(t):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Low]' derivation='Avg' name='[avg:Low:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MA200]' derivation='Avg' name='[avg:MA200:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MACD_EMA]' derivation='Avg' name='[avg:MACD_EMA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Open]' derivation='Avg' name='[avg:Open:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[RSI]' derivation='Avg' name='[avg:RSI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Volume]' derivation='Avg' name='[avg:Volume:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Open]' derivation='Avg' forecast-column-base='[avg:Open:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Open:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Volume]' derivation='Avg' forecast-column-base='[avg:Volume:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Volume:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Volume]' derivation='Sum' forecast-column-base='[sum:Volume:qk]' forecast-column-type='forecast-value' name='[fVal:sum:Volume:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Open]' derivation='Median' name='[med:Open:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_129126677656571910]' derivation='None' name='[none:Calculation_129126677656571910:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Close(t)]' derivation='Sum' name='[sum:Close(t):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MACD_EMA]' derivation='Sum' name='[sum:MACD_EMA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Open]' derivation='Sum' name='[sum:Open:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[RSI]' derivation='Sum' name='[sum:RSI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Volume]' derivation='Sum' name='[sum:Volume:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[yr:Date:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>2013</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>2005</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2009</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>2017</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>2014</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>2010</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>2006</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>2011</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>2018</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>2019</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2015</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>2012</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2007</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>2020</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>2016</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>2008</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Forecast Indicator:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Actual&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Estimate&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]&#10;[none:Forecast Indicator:nk]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Close(t):qk]&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Close(t):qk]&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Open:qk]&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Volume:qk]&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Volume:qk]&quot;</bucket>
+            </map-pri>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_129126677656571910:nk]' type='palette'>
+            <map to='#000000'>
+              <bucket>false</bucket>
+            </map>
+            <map to='#bfbfbf'>
+              <bucket>true</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[attr:Close(t):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Close(t):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Open:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[sum:Close(t):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:RSI:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:MA200:qk]&quot;</bucket>
+            </map>
+            <map to='#cdcecd'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Open:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[med:Open:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[sum:Open:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[sum:RSI:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Low:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:MACD_EMA:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[sum:MACD_EMA:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Volume:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Volume:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Volume:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[sum:Volume:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.01bexzx1edxszk102pw9r0rcb3tu].[usr:Calculation1 (copy)_129126677649842179:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='AAPL.csv' id='AAPL.csv_0B323A12C9A048D1ACAE2AB5E2339B66'>
+            <properties context=''>
+              <relation connection='textscan.1khozfs1dac2sw1e09whl0jqxqey' name='AAPL.csv' table='[AAPL#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='real' name='Open' ordinal='1' />
+                  <column datatype='real' name='High' ordinal='2' />
+                  <column datatype='real' name='Low' ordinal='3' />
+                  <column datatype='real' name='Close(t)' ordinal='4' />
+                  <column datatype='integer' name='Volume' ordinal='5' />
+                  <column datatype='real' name='SD20' ordinal='6' />
+                  <column datatype='real' name='Upper_Band' ordinal='7' />
+                  <column datatype='real' name='Lower_Band' ordinal='8' />
+                  <column datatype='real' name='S_Close(t-1)' ordinal='9' />
+                  <column datatype='real' name='S_Close(t-2)' ordinal='10' />
+                  <column datatype='real' name='S_Close(t-3)' ordinal='11' />
+                  <column datatype='real' name='S_Close(t-5)' ordinal='12' />
+                  <column datatype='real' name='S_Open(t-1)' ordinal='13' />
+                  <column datatype='real' name='MA5' ordinal='14' />
+                  <column datatype='real' name='MA10' ordinal='15' />
+                  <column datatype='real' name='MA20' ordinal='16' />
+                  <column datatype='real' name='MA50' ordinal='17' />
+                  <column datatype='real' name='MA200' ordinal='18' />
+                  <column datatype='real' name='EMA10' ordinal='19' />
+                  <column datatype='real' name='EMA20' ordinal='20' />
+                  <column datatype='real' name='EMA50' ordinal='21' />
+                  <column datatype='real' name='EMA100' ordinal='22' />
+                  <column datatype='real' name='EMA200' ordinal='23' />
+                  <column datatype='real' name='MACD' ordinal='24' />
+                  <column datatype='real' name='MACD_EMA' ordinal='25' />
+                  <column datatype='real' name='ATR' ordinal='26' />
+                  <column datatype='real' name='ADX' ordinal='27' />
+                  <column datatype='real' name='CCI' ordinal='28' />
+                  <column datatype='real' name='ROC' ordinal='29' />
+                  <column datatype='real' name='RSI' ordinal='30' />
+                  <column datatype='real' name='William%R' ordinal='31' />
+                  <column datatype='real' name='SO%K' ordinal='32' />
+                  <column datatype='real' name='STD5' ordinal='33' />
+                  <column datatype='real' name='ForceIndex1' ordinal='34' />
+                  <column datatype='real' name='ForceIndex20' ordinal='35' />
+                  <column datatype='date' name='Date_col' ordinal='36' />
+                  <column datatype='integer' name='Day' ordinal='37' />
+                  <column datatype='integer' name='DayofWeek' ordinal='38' />
+                  <column datatype='integer' name='DayofYear' ordinal='39' />
+                  <column datatype='integer' name='Week' ordinal='40' />
+                  <column datatype='integer' name='Is_month_end' ordinal='41' />
+                  <column datatype='integer' name='Is_month_start' ordinal='42' />
+                  <column datatype='integer' name='Is_quarter_end' ordinal='43' />
+                  <column datatype='integer' name='Is_quarter_start' ordinal='44' />
+                  <column datatype='integer' name='Is_year_end' ordinal='45' />
+                  <column datatype='integer' name='Is_year_start' ordinal='46' />
+                  <column datatype='integer' name='Is_leap_year' ordinal='47' />
+                  <column datatype='integer' name='Year' ordinal='48' />
+                  <column datatype='integer' name='Month' ordinal='49' />
+                  <column datatype='real' name='QQQ_Close' ordinal='50' />
+                  <column datatype='real' name='QQQ(t-1)' ordinal='51' />
+                  <column datatype='real' name='QQQ(t-2)' ordinal='52' />
+                  <column datatype='real' name='QQQ(t-5)' ordinal='53' />
+                  <column datatype='real' name='QQQ_MA10' ordinal='54' />
+                  <column datatype='real' name='QQQ_MA20' ordinal='55' />
+                  <column datatype='real' name='QQQ_MA50' ordinal='56' />
+                  <column datatype='real' name='SnP_Close' ordinal='57' />
+                  <column datatype='real' name='SnP(t-1))' ordinal='58' />
+                  <column datatype='real' name='SnP(t-5)' ordinal='59' />
+                  <column datatype='real' name='DJIA_Close' ordinal='60' />
+                  <column datatype='real' name='DJIA(t-1))' ordinal='61' />
+                  <column datatype='real' name='DJIA(t-5)' ordinal='62' />
+                  <column datatype='real' name='Close_forcast' ordinal='63' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='AAPL' name='federated.01bexzx1edxszk102pw9r0rcb3tu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01bexzx1edxszk102pw9r0rcb3tu'>
+            <column datatype='real' name='[Close(t)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Ma200' datatype='real' name='[MA200]' role='measure' type='quantitative' />
+            <column-instance column='[Close(t)]' derivation='Avg' name='[avg:Close(t):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MA200]' derivation='Avg' name='[avg:MA200:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[mn:Date:ok]'>
+            <groupfilter from='1' function='range' level='[mn:Date:ok]' to='12' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.01bexzx1edxszk102pw9r0rcb3tu].[mn:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:MA200:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Close(t):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:MA200:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Close(t):qk] + [federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:MA200:qk])</rows>
+        <cols>[federated.01bexzx1edxszk102pw9r0rcb3tu].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{0AF84569-10E0-485B-980E-5ACC8DCD1796}' />
+    </worksheet>
+    <worksheet name='candlestick_2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Candlestick about Apple</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='AAPL' name='federated.01bexzx1edxszk102pw9r0rcb3tu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01bexzx1edxszk102pw9r0rcb3tu'>
+            <column caption='HighLowDiff' datatype='real' name='[Calculation_129126677654130692]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[High]-[Low]' />
+            </column>
+            <column caption='CloseOpenDiff' datatype='real' name='[Calculation_129126677654327301]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Close(t)]-[Open]' />
+            </column>
+            <column caption='Color' datatype='boolean' name='[Calculation_129126677656571910]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Calculation_129126677654327301] &gt; 0' />
+            </column>
+            <column datatype='real' name='[Close(t)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[High]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Low]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Open]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_129126677654130692]' derivation='Avg' name='[avg:Calculation_129126677654130692:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_129126677654327301]' derivation='Avg' name='[avg:Calculation_129126677654327301:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Low]' derivation='Avg' name='[avg:Low:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Open]' derivation='Avg' name='[avg:Open:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_129126677656571910]' derivation='None' name='[none:Calculation_129126677656571910:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[none:Date:qk]' included-values='in-range'>
+            <min>#2020-01-28#</min>
+            <max>#2020-08-12#</max>
+          </filter>
+          <slices>
+            <column>[federated.01bexzx1edxszk102pw9r0rcb3tu].[none:Date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Open:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Low:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='GanttBar' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Low:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='GanttBar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' />
+              <size column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Calculation_129126677654130692:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.0099999997764825821' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Open:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='GanttBar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[none:Calculation_129126677656571910:nk]' />
+              <size column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Calculation_129126677654327301:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.61469614505767822' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Low:qk] + [federated.01bexzx1edxszk102pw9r0rcb3tu].[avg:Open:qk])</rows>
+        <cols>[federated.01bexzx1edxszk102pw9r0rcb3tu].[tdy:Date:qk]</cols>
+        <show-full-range>
+          <column>[federated.01bexzx1edxszk102pw9r0rcb3tu].[Date_col]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{F97DEBC9-9126-432B-9D7C-518B95DBCCEC}' />
+    </worksheet>
+    <worksheet name='forecast_opening_'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='AAPL' name='federated.01bexzx1edxszk102pw9r0rcb3tu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01bexzx1edxszk102pw9r0rcb3tu'>
+            <column datatype='real' name='[Close(t)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Open]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Volume]' role='measure' type='quantitative' />
+            <column-instance column='[Open]' derivation='Avg' name='[avg:Open:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volume]' derivation='Avg' name='[avg:Volume:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Open]' derivation='Avg' forecast-column-base='[avg:Open:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Open:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volume]' derivation='Avg' forecast-column-base='[avg:Volume:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Volume:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Close(t)]' derivation='Sum' forecast-column-base='[sum:Close(t):qk]' forecast-column-type='forecast-value' name='[fVal:sum:Close(t):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Open]' derivation='Sum' forecast-column-base='[sum:Open:qk]' forecast-column-type='forecast-value' name='[fVal:sum:Open:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Close(t)]' derivation='Sum' name='[sum:Close(t):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Open]' derivation='Sum' name='[sum:Open:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Volume:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.01bexzx1edxszk102pw9r0rcb3tu].[yr:Date:ok]' value='53' />
+          </style-rule>
+          <style-rule element='refband'>
+            <format attr='reverse-palette' id='refline0' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Open:qk]' />
+              <lod column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Close(t):qk]' />
+              <color column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Open:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Open:qk]' />
+              <lod column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Close(t):qk]' />
+              <color column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Volume:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Open:qk]' />
+              <lod column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:sum:Close(t):qk]' />
+              <color column='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Open:qk] + [federated.01bexzx1edxszk102pw9r0rcb3tu].[fVal:avg:Volume:qk])</rows>
+        <cols>[federated.01bexzx1edxszk102pw9r0rcb3tu].[yr:Date:ok]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-periods='Year-Trunc' range-size='3' range-type='next' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{41E18BFB-4DC1-4D8B-999C-C9886F93D1A0}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4B440722-6954-4AC9-8908-A29E11D15F60}' />
+    </window>
+    <window class='worksheet' maximized='true' name='candlestick_2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='226'>
+            <card param='[federated.01bexzx1edxszk102pw9r0rcb3tu].[none:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' type='color' />
+            <card pane-specification-id='2' param='[federated.01bexzx1edxszk102pw9r0rcb3tu].[none:Calculation_129126677656571910:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7E969FF1-E608-43D4-93E3-7B1E7C373814}' />
+    </window>
+    <window class='worksheet' name='forecast_opening_'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='3' param='[federated.01bexzx1edxszk102pw9r0rcb3tu].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9F54ACA1-DE37-441E-AED1-1964483F4CB6}' />
+    </window>
+  </windows>
+</workbook>
