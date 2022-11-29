@@ -1,0 +1,26 @@
+<Tech Interview>
+
+<Task 1.> 
+
+
+Let's imagine a situation: you went to the market and filled your baskets (basket1 and basket2) with fruits. 
+You wanted to have one of each kind but realized that some fruits were put in both baskets.
+
+
+1. Your first task is to remove everything from basket2 that is already present in basket1. 
+
+2. After the removal it is reasonable to anticipate that one of the baskets might weigh more compared to the
+ another (all fruit kinds weight the same). Therefore, the second task is to transfer some fruits from a heavier 
+ basket to the lighter one to get approximately the same weight/amount of fruits.
+
+--------------- Done! -----------------
+
+Task 2. 
+Your task is to create a regular expression matching a valid temperature represented either in Celsius 
+or Fahrenheit scale (e.g. '+23.5 C', '-4 F', '0.0 C', '73.45 F') and to extract all the appearances 
+from the given string text. Positive temperatures can be with or without the + prefix (e.g. '5 F', '+5 F'). Negative temperatures must be prefixed with -. Zero temperature can be used with a prefix or without.
+
+Tips:
+The + symbol within the square brackets [] matches the +symbol itself (e.g. the regular expression [1a+] matches to '1', 'a', or '+'). 
+
+You can also apply ? to the characters within the square brackets [] to make the set optional (e.g. [ab]? matches to 'a', 'b', or '').
