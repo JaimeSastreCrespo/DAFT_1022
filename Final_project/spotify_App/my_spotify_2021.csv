@@ -1,0 +1,101 @@
+,name,album,artist,release_date,length,popularity,danceability,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,time_signature
+0,A las Cosas por Su Nombre,Vivir para Contarlo,Violadores Del Verso,2006,259920,46,0.885,0.214,0.885,0.877,1.44e-06,0.116,-5.269,0.171,91.985,4
+1,Good News,Good News,Mac Miller,2020-01-09,342040,55,0.794,0.853,0.794,0.32,0.134,0.112,-12.92,0.173,174.088,4
+2,"Dani Ribba: Bzrp Freestyle Sessions, Vol. 7","Dani Ribba: Bzrp Freestyle Sessions, Vol. 7",Bizarrap,2019-11-07,137365,54,0.924,0.0995,0.924,0.622,0.0,0.0971,-6.824,0.233,130.063,4
+3,En tu agujero,Besos de Perro,Marea,2002-04-19,304399,50,0.561,0.212,0.561,0.861,0.0088,0.0841,-4.791,0.0672,92.894,4
+4,Como el Sol 2011,Kase.O Jazz Magnetism,Kase.O,2011-12-05,283840,51,0.812,0.176,0.812,0.579,0.0,0.219,-8.124,0.187,93.004,4
+5,Solsticio de Invierno,Solsticio de Invierno,TribuTrip,2020-06-23,103578,0,0.719,0.554,0.719,0.602,0.0,0.115,-13.107,0.0839,95.02,4
+6,Tarde,Tarde,Luisaker,2020-01-17,225885,0,0.837,0.55,0.837,0.659,0.0,0.107,-8.202,0.141,135.832,4
+7,High Today (feat. Logic),The Saga of Wiz Khalifa,Wiz Khalifa,2020-04-20,199970,57,0.775,0.269,0.775,0.629,0.0,0.111,-5.315,0.0669,112.835,4
+8,Si Tú Supieras,Hueso y Carne,Iratxo,2016-03-04,294626,8,0.433,0.857,0.433,0.579,4.35e-06,0.102,-4.333,0.0901,80.021,4
+9,Ladders,Swimming,Mac Miller,2018-08-03,287040,71,0.802,0.236,0.802,0.463,0.00531,0.105,-8.379,0.162,103.961,4
+10,Vive,Vive,Luisaker,2020-06-05,194429,0,0.685,0.186,0.685,0.737,0.0,0.0705,-7.08,0.227,184.076,4
+11,"Dani Ribba: Bzrp Music Sessions, Vol. 24","Dani Ribba: Bzrp Music Sessions, Vol. 24",Bizarrap,2020-03-04,173251,46,0.913,0.287,0.913,0.689,0.0,0.104,-7.74,0.349,129.889,4
+12,Con mi voz,Buenos dias,Mäbu,2011-03-07,185533,36,0.752,0.39,0.752,0.627,0.00334,0.127,-4.997,0.042,129.848,4
+13,Radioactive,Radioactive,Imagine Dragons,2014-01-01,276040,65,0.483,0.0407,0.483,0.894,0.0,0.282,-3.9,0.223,139.858,4
+14,Seat Blanco,Lo Primero Es Lo Segundo,Grupo Viral,2020-06-18,254066,0,0.621,0.41,0.621,0.462,2.97e-05,0.277,-6.58,0.0242,99.867,4
+15,"Bejo: Bzrp Music Sessions, Vol. 27","Bejo: Bzrp Music Sessions, Vol. 27",Bizarrap,2020-04-22,175438,43,0.78,0.291,0.78,0.695,0.0,0.089,-6.716,0.474,80.196,4
+16,Segundo movimiento: lo de fuera,La ley innata,Extremoduro,2008-08-26,703226,50,0.257,0.156,0.257,0.86,0.11,0.53,-4.476,0.0789,174.701,4
+17,Demons,Night Visions,Imagine Dragons,2012-09-04,177506,84,0.505,0.19,0.505,0.71,0.00025,0.269,-3.015,0.0321,89.938,4
+18,Lluvias de Abril,Niebla Y Hollín,Exceso,2010-12-08,162466,34,0.258,0.00789,0.258,0.914,0.0,0.0684,-4.505,0.217,191.959,4
+19,Los Buenos,Los Ríos de Alice (Original Game Soundtrack),Vetusta Morla,2013-04-21,255045,49,0.665,0.7,0.665,0.489,0.0489,0.683,-8.572,0.0285,117.292,4
+20,Nítido,Nítido,Luisaker,2020-03-13,246000,0,0.723,0.808,0.723,0.539,0.0,0.283,-10.094,0.417,80.11,4
+21,Ciego,A Versos y a Bocaos,Iratxo,2009,256888,23,0.586,0.856,0.586,0.385,7.82e-05,0.1,-9.409,0.061,91.175,4
+22,Intocable,R.I.P.R.O 3,Lacrim,2017-11-17,224386,47,0.787,0.489,0.787,0.78,0.0,0.0845,-7.419,0.296,92.044,4
+23,Natural,Origins (Deluxe),Imagine Dragons,2018-11-09,189466,81,0.704,0.217,0.704,0.611,0.0,0.0812,-6.112,0.0409,100.0,4
+24,Vientos de octubre,"Recopilación, Vol. II",Día Sexto,2015-02-01,428292,18,0.46,0.86,0.46,0.354,1.01e-06,0.112,-13.205,0.119,91.992,4
+25,Lost Stars,V (Deluxe),Maroon 5,2015-05-18,267853,58,0.494,0.102,0.494,0.582,0.0,0.0798,-4.769,0.0266,82.025,4
+26,#RapSinCorte XXXVIII,#RapSinCorte XXXVIII,Foyone,2019-10-29,142641,0,0.753,0.312,0.753,0.807,0.0,0.099,-6.049,0.194,105.95,4
+27,Thunder,Evolve,Imagine Dragons,2017-06-23,187146,84,0.605,0.00671,0.605,0.822,0.134,0.147,-4.833,0.0438,167.997,4
+28,Las Leyes,Explosiva,Itaca Band,2017-04-21,229745,0,0.575,0.823,0.575,0.413,0.0,0.12,-8.615,0.0343,78.907,4
+29,Soy un pringao,Soy un pringao,Santiuve,2019-07-15,180819,29,0.907,0.958,0.907,0.244,4.25e-06,0.0981,-9.178,0.292,139.84,4
+30,Take Me To Church,Hozier,Hozier,2014-07-20,241688,83,0.566,0.634,0.566,0.664,0.0,0.116,-5.303,0.0464,128.945,4
+31,Believer,Evolve,Imagine Dragons,2017-06-23,204346,88,0.776,0.0622,0.776,0.78,0.0,0.081,-4.374,0.128,124.949,4
+32,Suelo soñar,Producto Infinito Version 0.4,Zenit,2004-04-04,298893,43,0.937,0.0499,0.937,0.644,0.0,0.0705,-4.682,0.215,97.003,4
+33,Jesucristo García - Acoustic,Lo Que Hicimos en Youtube Pero Bien Grabao,El Niño de la Hipoteca,2017-12-29,250706,29,0.631,0.698,0.631,0.501,0.0,0.102,-7.006,0.154,144.028,4
+34,Si Tú Supieras,La última Bala,Iratxo,2016-05-20,299680,35,0.465,0.035,0.465,0.647,0.0,0.107,-7.909,0.0627,172.336,4
+35,Tengo Un Trato - Remastered 2015,Lujo Ibérico (Edición 15 Aniversario),Mala Rodríguez,2015-10-23,168475,52,0.917,0.018,0.917,0.638,0.0,0.0561,-5.483,0.132,93.016,4
+36,Contra Todos,995,995,2001-10-19,319920,46,0.756,0.373,0.756,0.728,0.0,0.167,-5.104,0.481,88.98,4
+37,Pieces,Chuck,Sum 41,2004-10-12,182040,68,0.457,0.00682,0.457,0.83,0.00337,0.166,-5.262,0.0321,99.93,4
+38,El Blues De Aranjuez,Oi! Baldorba,Rotten XIII,2019-01-03,243278,45,0.624,0.0132,0.624,0.855,0.000219,0.267,-2.681,0.0335,134.034,4
+39,Everybody,Circles (Deluxe),Mac Miller,2020-03-19,256506,49,0.875,0.0333,0.875,0.599,0.0143,0.113,-9.077,0.138,152.061,4
+40,Nico and the Niners,Trench,Twenty One Pilots,2018-10-05,225040,66,0.728,0.0699,0.728,0.602,7.01e-06,0.318,-7.748,0.185,140.081,4
+41,Viejos Ciegos (con Xhelazz y Sho-hai),El Círculo (Versión Exclusiva de Spotify),Kase.O,2016-09-23,314960,48,0.736,0.0736,0.736,0.815,0.0,0.84,-6.277,0.37,180.034,4
+42,She Will Be Loved,Songs About Jane,Maroon 5,2002-06-25,257133,73,0.706,0.0596,0.706,0.713,0.0,0.132,-5.512,0.0301,102.037,4
+43,Para Siempre,El Rincón de Mi Cabeza,Benito Kamelas,2017-06-16,229973,36,0.564,0.00153,0.564,0.846,1.48e-05,0.17,-3.617,0.0701,174.933,4
+44,Self Care,Swimming,Mac Miller,2018-08-03,345133,79,0.52,0.367,0.52,0.538,0.00187,0.119,-8.109,0.206,141.894,4
+45,L'enfant terrible,L'enfant terrible,Ayax y Prok,2020-01-31,180000,0,0.764,0.174,0.764,0.877,0.0,0.237,-5.683,0.549,92.048,4
+46,Machine,Origins (Deluxe),Imagine Dragons,2018-11-09,181880,65,0.638,0.0016,0.638,0.679,0.00655,0.121,-5.278,0.0425,81.045,4
+47,Lane Boy,Blurryface,Twenty One Pilots,2015-05-15,253093,66,0.616,0.0573,0.616,0.811,1.57e-05,0.0566,-4.804,0.0626,159.929,4
+48,Last Kiss,Last Kiss,Pearl Jam,1999,195466,71,0.622,0.363,0.622,0.692,0.000158,0.193,-6.97,0.0276,112.053,4
+49,Surf,Circles (Deluxe),Mac Miller,2020-03-19,330506,52,0.828,0.754,0.828,0.182,0.0706,0.15,-13.066,0.166,147.279,4
+50,Adam Lallana,Adam Lallana,Kemalio,2020-08-21,181333,0,0.704,0.778,0.704,0.808,0.0138,0.408,-5.37,0.171,90.026,4
+51,La Canción del Pensador,La Canción del Pensador,Ciudad Jara,2019-12-13,265252,26,0.565,0.112,0.565,0.474,2.04e-06,0.132,-8.541,0.0265,92.02,4
+52,Sour Patch Kids,Lazy Fair,Bryce Vine,2014-04-22,252546,65,0.523,0.0144,0.523,0.783,1.71e-05,0.219,-5.084,0.0545,76.588,4
+53,Cojo el saco y me retiro,Rockallano,Astola,2015-12-01,286960,29,0.884,0.181,0.884,0.574,0.000373,0.0653,-7.567,0.0639,128.018,4
+54,Home,Wanderlust,Hollow Coves,2017-02-03,202440,1,0.517,0.86,0.517,0.496,0.00471,0.117,-11.858,0.0251,84.993,4
+55,Walk On the Wild Side,Transformer,Lou Reed,1972-12-01,254173,72,0.575,0.683,0.575,0.318,0.000202,0.0934,-16.729,0.109,104.522,4
+56,Rise Up,Evolve,Imagine Dragons,2017-06-23,231720,67,0.447,0.0122,0.447,0.74,0.000228,0.0958,-6.607,0.0475,93.759,4
+57,Cum Laude,Esto No Es un Disco Vol.1,El Niño de la Hipoteca,2019-05-24,210239,38,0.666,0.206,0.666,0.829,0.0,0.193,-5.463,0.0587,147.979,4
+58,#RapSinCorte XLI,#RapSinCorte XLI,Foyone,2020-03-15,132000,4,0.656,0.449,0.656,0.939,0.0,0.692,-6.494,0.484,79.57,4
+59,Ceremonia,Carácter,Mala Reputación,2011-04-06,229906,0,0.724,0.285,0.724,0.551,0.0,0.585,-6.906,0.0468,114.964,4
+60,Coastline,Wanderlust,Hollow Coves,2017-02-03,233973,3,0.67,0.627,0.67,0.496,0.00325,0.0584,-11.23,0.0277,100.17,4
+61,Cuando Salga el Sol,Inercia,Desakato,2012-01-24,200160,0,0.509,0.000158,0.509,0.973,4.47e-05,0.104,-3.851,0.0935,150.059,4
+62,BIMBI PER STRADA (CHILDREN),BIMBI PER STRADA (CHILDREN),Fedez,2020-06-11,200820,53,0.642,0.0206,0.642,0.806,0.0,0.11,-5.451,0.176,134.002,4
+63,Lo Que en Silencio Guardo,Recopilatorio de Temas Inéditos,Kaze,2015-12-03,165173,50,0.778,0.58,0.778,0.718,0.0,0.12,-7.264,0.303,93.207,4
+64,Still Waiting,Does This Look Infected?,Sum 41,2002-01-01,158733,71,0.431,0.00105,0.431,0.95,3.63e-05,0.272,-4.918,0.26,191.936,4
+65,El villancico de los pobres / Blanca Navidad,El villancico de los pobres / Blanca Navidad,Foyone,2019-12-24,158470,0,0.668,0.0776,0.668,0.653,0.0,0.0671,-12.213,0.334,85.022,4
+66,¿Dónde te has quedado?,Maldito,Gritando en Silencio,2011,299173,37,0.5,0.00751,0.5,0.817,0.0,0.11,-6.758,0.0603,184.085,4
+67,That's Life (feat. Mac Miller & Sia),That's Life (feat. Mac Miller & Sia),88-Keys,2019-06-20,202390,64,0.525,0.24,0.525,0.774,1.07e-06,0.495,-4.532,0.241,154.192,4
+68,Aquellos Tipos de Largo,Lo Primero Es Lo Segundo,Grupo Viral,2020-06-18,251089,0,0.506,0.00514,0.506,0.861,0.00434,0.319,-5.202,0.0368,160.048,4
+69,The Woods - Acoustic,The Woods (Acoustic),Hollow Coves,2017-07-14,239960,0,0.568,0.724,0.568,0.558,0.000331,0.116,-8.553,0.0278,104.991,4
+70,Cypher #1 (Reggae Cypher),Cypher #1 (Reggae Cypher),4 Elementos,2019-05-11,227959,0,0.691,0.254,0.691,0.785,0.0,0.0646,-4.403,0.308,89.86,4
+71,Papa Trabaja,Force & Honneur,Lacrim,2017-03-31,214093,40,0.81,0.0312,0.81,0.772,5.42e-06,0.3,-4.365,0.112,119.989,4
+72,Weekend (feat. Miguel),GO:OD AM,Mac Miller,2015-09-18,208080,77,0.843,0.47,0.843,0.435,0.0,0.147,-8.442,0.178,120.058,4
+73,Carretera,Carretera,Natos y Waor,2016-12-01,214588,11,0.673,0.734,0.673,0.753,0.0,0.111,-6.632,0.0549,84.96,4
+74,From Afar,Dream Your Life Away,Vance Joy,2014-09-08,262200,41,0.327,0.489,0.327,0.412,7.72e-06,0.308,-8.511,0.029,86.419,4
+75,Little Talks,My Head Is An Animal,Of Monsters and Men,2012-01-01,266600,79,0.457,0.0206,0.457,0.757,0.0,0.146,-5.177,0.032,102.961,4
+76,Here with You,Here with You,Urbanites,2020-09-18,244117,4,0.291,0.0244,0.291,0.541,0.0,0.0841,-8.455,0.0302,89.052,4
+77,Que Te Vaya Bien,Operación Guitarra Sessions,El Niño de la Hipoteca,2016-03-25,189507,45,0.697,0.28,0.697,0.662,0.0,0.148,-12.558,0.0957,115.329,4
+78,Cinderella,Cinderella,Ayax y Prok,2020-02-14,162511,0,0.69,0.127,0.69,0.847,0.0,0.0818,-5.631,0.214,94.017,4
+79,Magia Pura,11 Palos,Poncho K,2017-09-15,217640,40,0.473,0.73,0.473,0.438,0.0,0.121,-9.609,0.0911,186.421,3
+80,Sexo en la Calle,Precede,Los De Marras,2001,240933,0,0.42,0.0971,0.42,0.905,0.0,0.172,-4.501,0.079,140.05,4
+81,Yonki,Yonki,El Niño de la Hipoteca,2019-02-08,261490,17,0.587,0.19,0.587,0.89,0.0,0.136,-4.928,0.075,115.629,4
+82,Our Love Is Our Love,Weird Kid,Chris Malinchak,2018-10-12,209871,37,0.788,0.0286,0.788,0.519,0.0107,0.0906,-10.826,0.0593,97.008,4
+83,Lucha De Gigantes,Lucha De Gigantes,Love of Lesbian,2010-01-01,206880,55,0.729,0.339,0.729,0.482,4.38e-05,0.159,-6.5,0.0301,108.133,4
+84,Spirits,Hope,The Strumbellas,2016-04-22,203653,53,0.556,0.164,0.556,0.658,0.0,0.113,-6.075,0.0265,80.529,4
+85,A un Palmo de la Gloria,Operación Guitarra Sessions,El Niño de la Hipoteca,2016-03-25,209593,44,0.751,0.809,0.751,0.347,0.0,0.101,-10.379,0.475,73.977,4
+86,Never There,Order In Decline,Sum 41,2019-07-19,260093,53,0.516,0.00264,0.516,0.561,0.0,0.556,-5.364,0.0351,139.95,4
+87,A Tu Vera,Oscuridad,Los De Marras,2011-05-23,217146,0,0.574,0.0126,0.574,0.865,0.0,0.175,-4.023,0.0552,89.902,3
+88,Cherry Wine - Live,Hozier,Hozier,2014-07-20,240147,66,0.418,0.953,0.418,0.111,0.00342,0.0982,-14.848,0.0389,82.508,4
+89,Smells Like Teen Spirit,Nevermind (Deluxe Edition),Nirvana,1991-09-26,301920,10,0.502,2.55e-05,0.502,0.912,0.000173,0.106,-4.556,0.0564,116.761,4
+90,With Me,Underclass Hero,Sum 41,2007-01-01,291360,62,0.167,0.0127,0.167,0.851,0.0,0.172,-4.039,0.0421,175.426,3
+91,No Eres Feo Ni Ná,2005,SFDK,2005-03-18,260133,42,0.505,0.0851,0.505,0.809,0.0,0.353,-4.683,0.431,174.052,4
+92,El marinero (feat. La Maravillosa Orquesta del Alcohol),Capitán Cobarde,Capitán Cobarde,2015-09-14,217563,39,0.361,0.221,0.361,0.852,0.0,0.52,-4.971,0.0451,125.132,4
+93,Estoy enfermo (con Melendi),Cuestion de directo,Pignoise,2009-06-18,154226,55,0.569,0.0178,0.569,0.831,0.0,0.0603,-3.177,0.0454,100.022,4
+94,Rap Largo,Rap Largo,Bejo,2020-05-22,475810,0,0.711,0.0305,0.711,0.677,0.0,0.0958,-6.951,0.504,78.387,4
+95,Naive,Inside In / Inside Out,The Kooks,2006-01-01,203506,74,0.391,0.0759,0.391,0.808,0.0,0.149,-6.209,0.0892,100.304,4
+96,Time,Time,Free Nationals,2019-06-12,210279,52,0.46,0.518,0.46,0.771,0.000197,0.0774,-7.088,0.328,88.83,4
+97,Quick Escape,Quick Escape,Pearl Jam,2020-03-25,286573,38,0.417,0.000187,0.417,0.932,0.00121,0.326,-5.482,0.055,163.527,4
+98,Tear in My Heart,Blurryface,Twenty One Pilots,2015-05-15,188493,74,0.655,0.0189,0.655,0.632,0.0,0.0722,-4.802,0.0489,120.113,4
+99,Medley:Javat y Kamel/Amberes/Reunion/Kieres - Live,Gira 06/07 - Presente (Live),Violadores Del Verso,2007-12-07,763306,31,0.51,0.0536,0.51,0.949,0.0,0.396,-3.365,0.433,184.23,4
